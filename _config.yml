@@ -1,16 +1,16 @@
 actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
+  anozon:
+    image_url: /images/actors/anozon.png
+    name: anozon
+    url: https://anozon.me
+  aki:
     image_url: /images/actors/bob.png
-    name: bob
+    name: aki
     url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+author: anozon
+description: Akispace.fm
+description_long: "フロントエンジニアとサーバーエンジニアによる雑談ラジオ"
+email: guild0105@gmail.com
 exclude:
   - docker
   - docker-compose.yml
@@ -20,14 +20,15 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
+hashtag: akispacefm
 itunes_podcast_url:
-keywords: comma,separated,keywords
+keywords: frontend,javascript,keywords
 language: ja
 markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: Akispace.fm
+url: https://elzup.github.io/akispacefm/
+# url: https://akispace.anozon.me
